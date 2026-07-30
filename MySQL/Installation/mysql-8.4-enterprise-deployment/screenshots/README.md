@@ -12,7 +12,9 @@ This directory contains sanitized screenshots collected during the deployment, h
 
 ### Screenshot
 
-[![MySQL Version](mysql-version.png)](mysql-version.png)
+<a href="mysql-version.png">
+  " alt="MySQL Version Validation" width="1000">
+</a>
 
 ---
 
@@ -22,7 +24,9 @@ This directory contains sanitized screenshots collected during the deployment, h
 
 ### Screenshot
 
-[![MySQL Service Status](systemctl-status.png)](systemctl-status.png)
+<a href="systemctl-status.png">
+  <img src="systemctl-status.png" alt="MySQL Service Status" width="1000">
+</a>
 
 ---
 
