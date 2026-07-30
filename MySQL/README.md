@@ -26,7 +26,7 @@ Projects:
 
 Replication architectures and implementation guides.
 
-📂 Replication
+📂 [Replication](Replication/
 
 Topics:
 
@@ -41,7 +41,7 @@ Topics:
 
 Database backup and recovery procedures.
 
-📂 Backup_Recovery
+📂 [Backup_Recovery](Backup_Recovery/
 
 Topics:
 
@@ -57,7 +57,8 @@ Topics:
 
 High-availability architectures and failover solutions.
 
-📂 [High_Availability](High_Av
+📂 [High_Availability](High_Availability/
+
 - MySQL InnoDB Cluster
 - Group Replication
 - MySQL Router
@@ -69,7 +70,7 @@ High-availability architectures and failover solutions.
 
 Performance optimization and troubleshooting.
 
-📂 Performance_Tuning
+📂 [Performance_Tuning](Performance_Tuning/
 
 Topics:
 
@@ -84,7 +85,7 @@ Topics:
 
 Database security standards and controls.
 
-📂 Security_Hardening
+📂 [Security_Hardening](Security_Hardening/
 
 Topics:
 
@@ -100,7 +101,7 @@ Topics:
 
 Version upgrade planning and implementation.
 
-📂 Upgrades
+📂 [Upgrades](Upgrades/
 
 Topics:
 
@@ -115,7 +116,12 @@ Topics:
 
 Troubleshooting procedures and operational scenarios.
 
-📂 Troubleshooting
+📂 [Troubleshooting|
+| Replication | [Open](Replication/ |
+| Backupvery | [Open](Backup_Recovery/ |
+| High Availability | [igh_Availability/ |
+| Performance Tuning | [ Security Hardening | Security_Hardening/ |
+| Upgrades | [Open](Upgrades/oubleshooting | [Open](Troubleshooting/ |
 
 Topics:
 
@@ -140,7 +146,7 @@ An end-to-end enterprise MySQL implementation project covering:
 - Runtime Directory Management
 - Validation Testing
 
-🔗 [View Project](Installation/prise-deployment
+🔗 [View Project Documentation](Installation/mysql-8.4-enterprise-deployment/
 
 ---
 
