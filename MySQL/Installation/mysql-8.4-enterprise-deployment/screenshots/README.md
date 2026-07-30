@@ -15,8 +15,9 @@ This directory contains sanitized screenshots collected during the deployment, h
 <a href="mysql-version.png">
  <img src="mysql-version.png" alt="MySQL Version Validation" width="1000">
 </a>
-
-*Figure 1: Verification of the successful installation of MySQL Enterprise Server 8.4.4.*
+<p align="center">
+<i>*Figure 1: Verification of the successful installation of MySQL Enterprise Server 8.4.4.*</i>
+</p>
 ---
 
 ## Service Status Validation
