@@ -8,7 +8,7 @@ The implementation includes:
 
 - Operating system preparation
 - Storage provisioning
-- MySQL Enterprise installation
+- MySQL Enterprise binary installation
 - Configuration management
 - Service configuration
 - Security hardening
