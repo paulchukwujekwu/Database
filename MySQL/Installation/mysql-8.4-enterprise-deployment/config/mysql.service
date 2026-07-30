@@ -1,1 +1,41 @@
-config/mysql.service
+############################################################
+# MySQL Enterprise Server 8.4
+# systemd Service Configuration
+############################################################
+
+# Purpose:
+# Provides lifecycle management for MySQL Enterprise Server
+# using systemd on Red Hat Enterprise Linux 9.
+#
+# Features:
+# - Automatic startup
+# - Service restart on failure
+# - Resource limit configuration
+# - Controlled shutdown handling
+
+[Unit]
+Description=MySQL 8.4 Enterprise Server
+Documentation=https://dev.mysql.com/doc/
+After=network.target
+
+[Service]
+
+Type=notify
+
+User=mysql
+Group=mysql
+
+ExecStart=/mysql/mysql/mysql/bin/mysqld --defaults-file=/etc/my.cnf
+
+LimitNOFILE=65535
+
+Restart=on-failure
+RestartSec=5
+
+TimeoutStartSec=600
+TimeoutStopSec=300
+
+PrivateTmp=false
+
+[Install]
+WantedBy=multi-user.target
