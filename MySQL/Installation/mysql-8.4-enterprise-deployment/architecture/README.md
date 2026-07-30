@@ -63,14 +63,15 @@ Example:
 ```text
 /mysql/mysql/mysql/bin/mysqld
 /mysql/mysql/mysql/bin/mysql
+/mysql/mysql/mysql/bin/mysqladmin
 ```
 
 Purpose:
 
 - Provides the MySQL database software installation location.
-- Separates application binaries from database files.
-- Simplifies software upgrades and patching.
-- Supports enterprise filesystem layout standards.
+- Separates application software binaries from database files.
+- Simplifies future upgrades and patch management.
+- Supports enterprise filesystem layout and deployment standards.
 
 ### Binary Log Directory
 
@@ -138,7 +139,7 @@ Provides:
 
 ## Design Highlights
 
-
+```markdown
 ✅ Dedicated MySQL software installation directory
 
 ✅ Dedicated data filesystem
