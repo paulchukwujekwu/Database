@@ -68,3 +68,14 @@ The deployment was successfully validated with the following checks:
 - ✅ System Databases Initialized
 - ✅ Security Hardening Completed
 - ✅ Environment Ready for Application Onboarding
+
+
+[![MySQL Version](mysql-version.png)](mysql-version.png)
+
+[![MySQL Service Status](systemctl-status.png)](systemctl-status.png)
+
+[![Data Directory](datadir.png)](datadir.png)
+
+[![Binary Logs](binary-logs.png)](binary-logs.png)
+
+[![Databases](show-databases.png)](show-databases.png)
