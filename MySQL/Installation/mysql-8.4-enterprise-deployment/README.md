@@ -27,6 +27,7 @@
 
 
 
+
 This project demonstrates the end-to-end deployment, configuration, validation, and security hardening of MySQL Enterprise Server 8.4 on Red Hat Enterprise Linux 9 using enterprise database administration best practices.
 
 The implementation includes:
