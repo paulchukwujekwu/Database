@@ -13,7 +13,7 @@ This directory contains sanitized screenshots collected during the deployment, h
 ### Screenshot
 
 <a href="mysql-version.png">
-  " alt="MySQL Version Validation" width="1000">
+ <img src="mysql-version.png" alt="MySQL Version Validation" width="1000">
 </a>
 
 ---
