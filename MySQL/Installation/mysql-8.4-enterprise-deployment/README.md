@@ -2,17 +2,28 @@
 
 ## Project Overview
 
+
 ## Key Achievements
 
+
 ✅ Deployed MySQL Enterprise Server 8.4.4 using binary installation methodology
+
 ✅ Implemented enterprise filesystem separation for software binaries, database files, binary logs, and diagnostic logs
+
 ✅ Configured custom MySQL data directory and logging architecture
+
 ✅ Implemented MySQL security hardening using industry best practices
+
 ✅ Enabled binary logging to support replication and Point-in-Time Recovery (PITR)
+
 ✅ Configured systemd service management with automatic startup and recovery capabilities
+
 ✅ Implemented runtime directory persistence using systemd tmpfiles
+
 ✅ Validated installation, service availability, database accessibility, and logging functionality
+
 ✅ Prepared the environment for enterprise application onboarding
+
 
 
 
