@@ -12,7 +12,11 @@ This directory contains sanitized screenshots collected during the deployment, h
 
 ### Screenshot
 
-![MySQL Version](mysql-version.png Status Validation
+mysql-version.png
+
+---
+
+## Service Status Validation
 
 **Purpose:** Confirms that the MySQL service is active, running, and managed by systemd.
 
@@ -24,7 +28,7 @@ systemctl-status.png
 
 ## Data Directory Validation
 
-**Purpose:** Verifies that MySQL is using the configured data directory.
+**Purpose:** Confirms that MySQL is using the configured data directory.
 
 ### Screenshot
 
@@ -34,7 +38,7 @@ datadir.png
 
 ## Binary Log Validation
 
-**Purpose:** Verifies that binary logging is enabled for replication and point-in-time recovery readiness.
+**Purpose:** Verifies binary logging is enabled for recovery and replication readiness.
 
 ### Screenshot
 
@@ -48,7 +52,7 @@ binary-logs.png
 
 ### Screenshot
 
-![MySQLtabases.png
+show-databases.png
 
 ---
 
@@ -64,4 +68,3 @@ The deployment was successfully validated with the following checks:
 - ✅ System Databases Initialized
 - ✅ Security Hardening Completed
 - ✅ Environment Ready for Application Onboarding
-`
