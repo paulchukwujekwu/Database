@@ -67,8 +67,9 @@ This directory contains sanitized screenshots collected during the deployment, h
 <a href="show-databases.png">
   <img src="show-databases.png" alt="MySQL System Databases Validation" width="1000">
 </a>
-
-*Figure 5: Validation of MySQL system databases following successful initialization of the MySQL Enterprise Server instance.*
+<p align="center">
+<i>Figure 5: Validation of MySQL system databases following successful initialization of the MySQL Enterprise Server instance.</i>
+</p>
 ---
 
 ## Validation Summary
