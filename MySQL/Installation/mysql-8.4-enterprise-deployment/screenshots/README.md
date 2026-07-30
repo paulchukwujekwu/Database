@@ -12,7 +12,7 @@ This directory contains sanitized screenshots collected during the deployment, h
 
 ### Screenshot
 
-mysql-version.png
+[![MySQL Version](mysql-version.png)](mysql-version.png)
 
 ---
 
@@ -22,7 +22,7 @@ mysql-version.png
 
 ### Screenshot
 
-systemctl-status.png
+[![MySQL Service Status](systemctl-status.png)](systemctl-status.png)
 
 ---
 
@@ -32,7 +32,7 @@ systemctl-status.png
 
 ### Screenshot
 
-datadir.png
+[![Data Directory](datadir.png)](datadir.png)
 
 ---
 
@@ -42,7 +42,7 @@ datadir.png
 
 ### Screenshot
 
-binary-logs.png
+[![Binary Logs](binary-logs.png)](binary-logs.png)
 
 ---
 
@@ -52,7 +52,7 @@ binary-logs.png
 
 ### Screenshot
 
-show-databases.png
+[![Databases](show-databases.png)](show-databases.png)
 
 ---
 
@@ -68,14 +68,3 @@ The deployment was successfully validated with the following checks:
 - ✅ System Databases Initialized
 - ✅ Security Hardening Completed
 - ✅ Environment Ready for Application Onboarding
-
-
-[![MySQL Version](mysql-version.png)](mysql-version.png)
-
-[![MySQL Service Status](systemctl-status.png)](systemctl-status.png)
-
-[![Data Directory](datadir.png)](datadir.png)
-
-[![Binary Logs](binary-logs.png)](binary-logs.png)
-
-[![Databases](show-databases.png)](show-databases.png)
