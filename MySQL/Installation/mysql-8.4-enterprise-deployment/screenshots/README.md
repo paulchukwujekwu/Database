@@ -2,82 +2,66 @@
 
 This directory contains sanitized screenshots collected during the deployment, hardening, and validation of MySQL Enterprise Server 8.4.
 
-## Available Screenshots
-
-### MySQL Version Validation
-
-File:
-
-```text
-mysql-version.png
-```
-
-Purpose:
-
-Verifies the installed MySQL Enterprise version.
+> **Note:** All screenshots have been sanitized to remove environment-specific information such as hostnames, IP addresses, usernames, passwords, and organization identifiers.
 
 ---
 
-### Service Status Validation
+## MySQL Version Validation
 
-File:
+**Purpose:** Verifies the successful installation of MySQL Enterprise Server 8.4.
 
-```text
-mysql-service-status.png
-```
+### Screenshot
 
-Purpose:
+![MySQL Version](mysql-version.png Status Validation
 
-Confirms the MySQL service is active and operational.
+**Purpose:** Confirms that the MySQL service is active, running, and managed by systemd.
 
----
+### Screenshot
 
-### Data Directory Validation
-
-File:
-
-```text
-mysql-datadir.png
-```
-
-Purpose:
-
-Confirms the configured database storage location.
+systemctl-status.png
 
 ---
 
-### Binary Log Validation
+## Data Directory Validation
 
-File:
+**Purpose:** Verifies that MySQL is using the configured data directory.
 
-```text
-mysql-binary-logs.png
-```
+### Screenshot
 
-Purpose:
-
-Verifies binary logging is enabled for recovery and replication readiness.
+datadir.png
 
 ---
 
-### Database Validation
+## Binary Log Validation
 
-File:
+**Purpose:** Verifies that binary logging is enabled for replication and point-in-time recovery readiness.
 
-```text
-mysql-show-databases.png
-```
+### Screenshot
 
-Purpose:
+binary-logs.png
 
-Confirms successful initialization of system databases.
+---
 
-## Note
+## Database Initialization Validation
 
-All screenshots have been sanitized to remove:
+**Purpose:** Confirms successful initialization of MySQL system databases.
 
-- Hostnames
-- IP addresses
-- Usernames
-- Passwords
-- Organization-specific information
+### Screenshot
+
+![MySQLtabases.png
+
+---
+
+## Validation Summary
+
+The deployment was successfully validated with the following checks:
+
+- ✅ MySQL Enterprise Server 8.4 Installed
+- ✅ Database Service Running
+- ✅ Database Connectivity Verified
+- ✅ Data Directory Configured
+- ✅ Binary Logging Enabled
+- ✅ System Databases Initialized
+- ✅ Security Hardening Completed
+- ✅ Environment Ready for Application Onboarding
+`
